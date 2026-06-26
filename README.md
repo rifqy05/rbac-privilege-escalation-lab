@@ -20,7 +20,7 @@ Serangan dilakukan melalui beberapa fase:
 4. **Privilege Escalation 2 (Root Access via Cron):** Membajak *script maintenance* otomatis (`/opt/scripts/maintenance.sh`) yang memiliki *permission* `chmod 777`. Penyerang menyuntikkan *payload reverse shell* sehingga mendapatkan akses *root* penuh ke mesin penyerang.
 
 ## 🔎 Analisis Forensik
-*(Tambahkan screenshot log dari server target di sini untuk membuktikan jejak IP penyerang atau manipulasi file)*
+![Hasil Rekonstruksi Forensik](Forensic_Timeline.png)
 
 ## 🛡️ Remediasi & Mitigasi
 Untuk mencegah serangan serupa pada lingkungan produksi, rekomendasi keamanan berikut harus diterapkan:
